@@ -1,0 +1,275 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block home %}
+    <header class="mb-5 bg-black d-none">
+        <ul class="container nav nav-pills pb-2 pt-2 pe-2 mb-7 d-flex justify-content-sm-end flex-wrap" id="pills-tab"
+            role="tablist">
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-light px-5" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false" tabindex="-1">About me
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-light px-5" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false" tabindex="-1">Skills
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-light px-5" id="pills-disabled-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                        aria-selected="false" disabled="" tabindex="-1">Portfolio
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active bg-light text-black   rounded-pill" id="pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                        aria-controls="pills-home" aria-selected="true"><strong>CONTACT ME</strong>
+                </button>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Header section start -->
+        <div class="main d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center my-5 container">
+            <div class="w-75">
+{#                <img class="mb-5 pb-5" src="{% static 'images/logo.png' %}" alt="logo">#}
+                <h2>Hi, I am</h2>
+                <h1 class="display-4 fw-bold">Solijhjonov Umidjon</h1>
+                <p class="h5">Back-end developer</p>
+                <div class="mt-5">
+                    <i class="fa-brands fa-telegram h1"></i>
+                    <i class="fa-brands fa-github h1 px-3"></i>
+                    <i class="fa-brands fa-twitter h1"></i>
+                </div>
+            </div>
+            <div class="mt-3 pt-3">
+                <img class="img-fluid" src="{% static 'images/C:\Users\99894\OneDrive\Desktop\DjangoEgzamen\blog\static\images' %}" alt="photo">
+            </div>
+        </div>
+        <!-- Header section end -->
+
+        <!-- IT Berries start -->
+        <div class="bg-black d-flex justify-content-center">
+            <div class="py-5 text-light container">
+                <h2>IT BERRIES</h2>
+                <p>
+                    Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius
+                    finibus.
+                    Sed ornare sit amet lorem sed
+                    viverra. In vel urna quis libero viverra facilisis ut ac est. Morbi commodo, eros in dignissim
+                    tempus,
+                    lacus
+                    odio rutrum augue, in semper sem magna quis tellus. Etiam enim erat, suscipit eu semper a, dictum
+                    sit
+                    amet elit.
+                    Nunc egestas nisi eget enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra. Ut
+                    ante
+                    justo,
+                    consequat vitae elementum tempor, accumsan nec eros.
+                </p>
+                <div class="d-flex">
+                    <p>|</p>
+                    <p class="px-3">READ MORE</p>
+                    <p>|</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- IT Berries end -->
+
+        <!-- About section1 start -->
+        <div>
+            <div class="d-flex justify-content-center h-100px ">
+                <button class="my-5 shadow-lg p-3 mb-5 bg-body rounded">
+                    <span class="display-6 px-3"> <strong>ABOUT ME</strong></span>
+                </button>
+            </div>
+            <div class="d-flex justify-content-center text-center px-3">
+                <p>Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet
+                    lorem
+                    sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
+
+            </div>
+            <div class="d-flex justify-content-center pt-5 pb-5">
+                <p>|</p>
+                <p class="px-3">READ MORE</p>
+                <p>|</p>
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <img class="img-fluid" src="{% static '/images/python.jpg' %}" alt="svg">
+            </div>
+
+            <div class="container">
+                <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center pt-5 mx-5 ">
+                    <div class="p-fluid">
+                        <h5>DESIGN</h5>
+                        <p>I can design the site based on your needs and suggestions. I can also design the site from
+                            scratch and
+                            consult you during the job.</p>
+                    </div>
+                    <div class="p-fluid">
+                        <h5>DEVELOPMENT</h5>
+                        <p>I can design the site based on your needs and suggestions. I can also design the site from
+                            scratch and
+                            consult you during the job.</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center mx-5">
+                    <div class="p-fluid">
+                        <h5>MAINTENANCE</h5>
+                        <p>I can design the site based on your needs and suggestions. I can also
+                            design the site
+                            from scratch and
+                            consult you during the job.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- About section1 end -->
+
+            <!-- Skills start-->
+            <div>
+                <div class="d-flex justify-content-center h-100px ">
+                    <button class="my-5 shadow-lg py-3 px-5 mb-5 bg-body rounded">
+                        <h1>Skills</h1>
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h2>USING NOW:</h2>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <div class="">
+                        <div class="d-flex flex-wrap justify-content-center text-center">
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/html.svg' %}" alt="html">
+                                <p>HTML5</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/css.svg' %}" alt="css">
+                                <p>CSS3</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/bootstrap.svg' %}"
+                                     alt="bootstrap">
+                                <p>BOOTSTRAP</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/git.png' %}" alt="git">
+                                <p>GIT</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/figma.svg' %}" alt="figma">
+                                <p>FIGMA</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/js.svg' %}" alt="css">
+                                <p>JAVASCRIPT</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static 'images/react.svg' %}" alt="react">
+                                <p>GIT</p>
+                            </div>
+                            <div class="px-5">
+                                <img style="margin-bottom: 15px ;" src="{% static '/images/node.png' %}"
+                                     alt="bootstrap">
+                                <p>BOOTSTRAP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skills end -->
+
+        <!-- Portfolios start -->
+        <div class="pt-5 mt-5">
+            <div class="d-flex justify-content-center h-100px">
+                <button class="my-5 shadow-lg p-3 mb-5 bg-body rounded">
+                    <h1>PORTFOLIO</h1>
+                </button>
+            </div>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center text-center bg-dark pt-5">
+            <div>
+                <p class="text-light">ALL</p>
+                <button type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0" class="active mb-5 mx-5 px-5" aria-current="true"
+                        aria-label="Slide 1">
+                </button>
+            </div>
+            <div>
+                <p class="text-light">CODED</p>
+                <button type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0" class="active mb-5 mx-5 px-5" aria-current="true"
+                        aria-label="Slide 2">
+                </button>
+            </div>
+            <div>
+                <p class="text-light">DESIGNED</p>
+                <button type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0" class="active mb-5 mx-5 px-5" aria-current="true"
+                        aria-label="Slide 3">
+                </button>
+            </div>
+
+        </div>
+        <div>
+            <img class="w-100" src="{% static 'images/portfolio.png' %}" alt="portfolio">
+        </div>
+        <div class="bg-dark text-light pt-3 pb-2 text-center">
+            <p>And many more to come!</p>
+        </div>
+        </div>
+        <!-- Portfolios end -->
+
+        <!-- Contact start -->
+        <div>
+            <div class="pt-5">
+                <div class="d-flex justify-content-center h-100px ">
+                    <button class="my-5 shadow-lg p-3 mb-5 bg-body rounded">
+                        <h1>CONTACT</h1>
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center text-center">
+                <p>
+                    Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit
+                    amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.
+                </p>
+            </div>
+            <div class="shadow container py-4 my-5 rounded-4 res-width">
+                <h1 class="text-center mt-3 text-dark">Subscribe to Us</h1>
+                <div class="d-flex justify-content-center">
+                    <form action="{% url 'home' %}" method="POST">
+                        {% csrf_token %}
+                        <!-- from-floating-->
+                        <div class="form-floating mt-2">
+                            {{ form.user }}
+                            <label>Name</label>
+                        </div>
+                        <div class="form-floating mt-2">
+                            {{ form.email }}
+                            <label>Email</label>
+                        </div>
+                        <div class="form-floating mt-2">
+                            {{ form.phone_number }}
+                            <label>Phone</label>
+                        </div>
+                        <div class="form-floating mt-2">
+                            {{ form.message }}
+                            <label>Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-dark mt-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact start end -->
+        </div>
+    </main>
+{% endblock %}
